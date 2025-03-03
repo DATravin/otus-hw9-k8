@@ -21,10 +21,11 @@ import mlflow
 from mlflow.tracking import MlflowClient
 import pandas as pd
 import numpy as np
+from dotenv import load_dotenv
 
 
-aws_acc = 'YCAJEpCtcUeCWcTmPKd9zMRsF'
-aws_sec = 'YCOyYoA4HVnJcJyrFxsAscKJbOjGKM4fYySRLtTQ'
+aws_acc = 'aws_acc'
+aws_sec = 'aws_sec'
 temp_bucket_name = 'cold-s3-bucket'
 
 os.environ['MLFLOW_S3_ENDPOINT_URL'] = 'https://storage.yandexcloud.net'
@@ -72,7 +73,7 @@ body5 = {
         "sh_bad_days_per_term":[0.9999997500000625],
         "rel_cust_amount_to_max":[-0.035596481094056054],
         "rel_term_amount_to_max":[0.09881962098096198],
-        
+
         }
 
 def predict():
@@ -108,5 +109,3 @@ def predict():
     print(f'result:{prob_predicted[0][0]}')
 
     return prob_predicted[0][0]
-
-    

@@ -38,8 +38,7 @@ os.environ["S3_BUCKET_NAME"] = os.getenv('S3_BUCKET_NAME')
 # S3_SECRET_KEY = ${secret_key}
 # S3_BUCKET_NAME = ${s3_bucket_name}
 
-# aws_acc = 'YCAJEpCtcUeCWcTmPKd9zMRsF'
-# aws_sec = 'YCOyYoA4HVnJcJyrFxsAscKJbOjGKM4fYySRLtTQ'
+
 # temp_bucket_name = 'cold-s3-bucket'
 
 # os.environ['MLFLOW_S3_ENDPOINT_URL'] = 'https://storage.yandexcloud.net'

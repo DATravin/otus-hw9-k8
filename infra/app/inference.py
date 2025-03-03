@@ -66,8 +66,6 @@ if __name__ == "__main__":
     # parser.add_argument("--aws_acc", required=True, help="AWS accses key")
     # parser.add_argument("--aws_sec", required=True, help="AWS secret key")
     # parser.add_argument("--bucket_art", required=True, help="S3 bucket name for artifacts")
-    #aws_acc = 'YCAJEpCtcUeCWcTmPKd9zMRsF'
-    #aws_sec = 'YCOyYoA4HVnJcJyrFxsAscKJbOjGKM4fYySRLtTQ'
     # args = parser.parse_args()
     # bucket_name = args.bucket
     # mlflow_ip = args.mlflow
