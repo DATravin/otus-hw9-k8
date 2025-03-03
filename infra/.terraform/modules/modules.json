@@ -1,0 +1,1 @@
+{"Modules":[{"Key":"","Source":"","Dir":"."},{"Key":"compute","Source":"./modules/compute","Dir":"modules/compute"},{"Key":"iam","Source":"./modules/iam","Dir":"modules/iam"},{"Key":"kuber","Source":"./modules/kuber","Dir":"modules/kuber"},{"Key":"network","Source":"./modules/network","Dir":"modules/network"}]}
