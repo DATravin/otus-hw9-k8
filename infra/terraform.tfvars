@@ -1,0 +1,19 @@
+yc_config = {
+  token     = "y0_AgAAAAABvCTNAATuwQAAAAETE84AAABHVU00Pz5EvoVRWo1F09uLuoO5lQ"
+  cloud_id  = "b1gsnl9d6t48uj9q3qmi"
+  folder_id = "b1gcs058gd4fa8eeviec"
+  zone      = "ru-central1-a"
+}
+yc_instance_user        = "ubuntu"
+yc_instance_name        = "docker-vm"
+yc_network_name         = "docker-network"
+yc_subnet_name          = "docker-subnet"
+yc_service_account_name = "docker-vm-sa"
+yc_bucket_name          = "airflow-bucket"
+yc_cold_bucket_name     = "cold-s3-bucket"
+yc_storage_endpoint_url = "https://storage.yandexcloud.net"
+ubuntu_image_id         = "fd84gfv9gc2h87jilum1" # Airflow image
+# public_key_path         = "/home/ubuntu/yc.pub"
+# private_key_path        = "/home/ubuntu/yc"
+public_key_path          = "C:/Users/dtravin/.ssh/otus-key-rsa.pub"
+private_key_path         = "C:/Users/dtravin/.ssh/otus-key-rsa"
